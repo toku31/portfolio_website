@@ -300,7 +300,8 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
+  grid-template-areas: 'bioimage bio bio'
+ 'aw1 aw2 aw3';
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
@@ -364,20 +365,22 @@ img {
     border-radius: 50%;
     margin-right: 0.5rem; }
 
-#contact-a .text-field {
+#contact-a .text-fields {
   display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-template-areas: 'name email'
+ 'subject phone'
+ 'message message';
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
-  #contact-a .text-field .name-input {
+  #contact-a .text-fields .name-input {
     grid-area: name; }
-  #contact-a .text-field .subject-input {
+  #contact-a .text-fields .subject-input {
     grid-area: subject; }
-  #contact-a .text-field .email-input {
+  #contact-a .text-fields .email-input {
     grid-area: email; }
-  #contact-a .text-field .phone-input {
+  #contact-a .text-fields .phone-input {
     grid-area: phone; }
-  #contact-a .text-field .message-input {
+  #contact-a .text-fields .message-input {
     grid-area: message;
     height: 100px; }
 
@@ -452,7 +455,11 @@ img {
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3'; }
+    grid-template-areas: 'bioimage'
+ 'bio'
+ 'aw1'
+ 'aw2'
+ 'aw3'; }
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {
